@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Unrelated files and folders
+/HTML/
+/package.json
+/package-lock.json
+
+/client/github-commands
+/client/public/Siya Meals LOGO_Artboard 1.png
+/client/public/Siya Meals LOGO_Artboard 2.png
+/client/public/siya_meals_logo_smaller.svg

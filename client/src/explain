@@ -1,0 +1,15 @@
+Creating our ECR Repo
+=====================
+* Create an ECR repository
+* Authenticate Docker with ECR registry
+* Tag our Docker image and give it a new name
+* Push our image in the ECR Repo
+* Verify if our image is there
+
+
+IAM USER [AWS]
+===============
+* IAM USER is a seperate login identity you CREATE inside your AWS Account for a specific  person or application
+* It is an AWS Service that controls who can do what
+* It can have access keys 
+* it can have permissions that say what its allowed to do e.g managing an s3 bucket

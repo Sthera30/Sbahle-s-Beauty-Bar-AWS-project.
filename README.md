@@ -45,7 +45,7 @@ The deployment involved:
 
 ### What I Learned
 
-Through this project, I gained practical experience
+Through this project, I gained practical experience in:
 
 - Building a React.js application
 - Understanding real-world business challenges and developing software solutions around them

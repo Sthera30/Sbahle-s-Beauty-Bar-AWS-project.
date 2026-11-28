@@ -13,3 +13,5 @@ IAM USER [AWS]
 * It is an AWS Service that controls who can do what
 * It can have access keys 
 * it can have permissions that say what its allowed to do e.g managing an s3 bucket
+
+

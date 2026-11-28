@@ -49,3 +49,16 @@ module "ecs_cluster" {
   vpc_id             = module.vpc.vpc_id
   private_subnet_ids = module.vpc.private_subnet_ids
 }
+
+module "cicd" {
+  source = "./modules/cicd"
+
+  project                 = var.project
+  aws_region              = var.aws_region
+  ecr_repository_name     = var.ecr_repository_name
+  ecs_cluster_name        = module.ecs_cluster.cluster_name
+  ecs_service_name        = module.ecs_service.ecs_service_name
+  codestar_connection_arn = var.codestar_connection_arn
+  github_repository       = var.github_repository
+  github_branch           = var.github_branch
+}

@@ -134,3 +134,12 @@ resource "aws_route_table_association" "private" {
   subnet_id      = aws_subnet.private[count.index].id
   route_table_id = aws_route_table.private.id
 }
+
+
+# CodePipeline retrieves our source code from out github repository and zips it
+# It then stores that zip file into an S3 bucket
+# CodeBuild Will fetch that zip file from our S3, builds the docker image and pushes it into an ECR repo
+# CodeBuild also saves its outputs back to S3  (imagedefinitions.json)
+# For Drawing
+# ==============
+# https://app.diagrams.net/?utm_source=chatgpt.com

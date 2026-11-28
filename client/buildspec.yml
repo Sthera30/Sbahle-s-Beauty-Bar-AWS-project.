@@ -1,0 +1,28 @@
+```yaml
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $ECR_REGISTRY
+
+  build:
+    commands:
+      - echo Build started
+      - docker build -t $ECR_REPOSITORY:latest ./client # Tells Docker to look for the Docker file in the client folder
+      - docker tag $ECR_REPOSITORY:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
+
+  post_build:
+    commands:
+      - echo Pushing $ECR_REGISTRY/$ECR_REPOSITORY:latest
+      - docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+      - printf '[{"name":"sbahles-beauty-bar","imageUri":"%s"}]' "$ECR_REGISTRY/$ECR_REPOSITORY:latest" > imagedefinitions.json
+      # "name": "accelerator" must match the container name in your ECS task definition
+      # put the default project name
+      - cat imagedefinitions.json
+
+artifacts:
+  files:
+    - imagedefinitions.json
+```

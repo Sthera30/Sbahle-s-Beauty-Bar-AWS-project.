@@ -7,9 +7,6 @@
         <mxCell id="dx950CHp1dMwO-bTYOKk-215" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#E6F2F8,#171717);strokeColor=light-dark(#33FF33,#147EBA);strokeWidth=5;" value="" vertex="1">
           <mxGeometry height="1470" width="3370" x="-100" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="dx950CHp1dMwO-bTYOKk-297" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="&lt;span&gt;&lt;span&gt;Pipeline Artifact Storage&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="247.13" x="1855.3500000000004" y="730" as="geometry" />
-        </mxCell>
         <mxCell id="dx950CHp1dMwO-bTYOKk-298" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=25;" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;2. Amazon VPC - 10.0.0.0/16&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="345" x="55.000000000000114" y="770" as="geometry" />
         </mxCell>

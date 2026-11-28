@@ -31,6 +31,10 @@ The goal was to create a more organised booking experience for customers while g
 - CI/CD
 - Terraform
 
+### AWS Architecture
+
+
+
 ### Deployment & Infrastructure
 
 I used AWS to deploy the application and gain practical experience with cloud infrastructure and DevOps practices
@@ -41,7 +45,8 @@ The deployment involved:
 - Amazon ECR - Storing Docker Images
 - Amazon ECS - Running and managing application containers
 - Terraform - Provision and managing AWS infrastructure as code
-- CI/CD - working towards an automated deployment pipeline to streamline application updates
+- CI/CD<img width="3199" height="2817" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/a699a60a-00b3-425c-9c51-8b1eb43e89f5" />
+ - Automating application deployment through AWS CodePipeLine and AWS
 
 ### What I Learned
 

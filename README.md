@@ -33,6 +33,10 @@ The goal was to create a more organised booking experience for customers while g
 
 ### AWS Architecture
 
+The diagram below illustrates the AWS infrastructure used to deploy and host Sbahle's Beauty Bar
+
+It provides an overview of the CI/CD pipeline, container image management, VPC networking, public and private subnets, Application Load Balancer, Amazon ECS and supporting AWS services.
+
 ![Sbahle's Beauty Bar AWS Architecture](client/docs/sbahles-beauty-bar-aws-architecture.png )
 
 ### Deployment & Infrastructure

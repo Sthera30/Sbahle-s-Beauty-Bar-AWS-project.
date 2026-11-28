@@ -33,7 +33,7 @@ The goal was to create a more organised booking experience for customers while g
 
 ### AWS Architecture
 
-![Sbahle's Beauty Bar AWS Architecture](client/docs/sbahles-beauty-bar-aws-architecture.png)
+![Sbahle's Beauty Bar AWS Architecture](client/docs/sbahles-beauty-bar-aws-architecture.png )
 
 ### Deployment & Infrastructure
 

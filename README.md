@@ -33,7 +33,7 @@ The goal was to create a more organised booking experience for customers while g
 
 ### AWS Architecture
 
-
+![Sbahle's Beauty Bar AWS Architecture](docs/sbahles-beauty-bar-aws-architecture.png)
 
 ### Deployment & Infrastructure
 
@@ -45,8 +45,7 @@ The deployment involved:
 - Amazon ECR - Storing Docker Images
 - Amazon ECS - Running and managing application containers
 - Terraform - Provision and managing AWS infrastructure as code
-- CI/CD<img width="3199" height="2817" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/a699a60a-00b3-425c-9c51-8b1eb43e89f5" />
- - Automating application deployment through AWS CodePipeLine and AWS
+- CI/CD - Automating application deployment through AWS CodePipeLine and AWS CodeBuild
 
 ### What I Learned
 
